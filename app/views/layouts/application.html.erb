@@ -13,6 +13,9 @@
     <%= render "layouts/header" %>
     <main>
       <div class="container">
+        <!-- flashメッセージを表示 -->
+        <%= render "layouts/flash" %>
+        <!-- 各画面を表示している -->
         <%= yield %>
       </div>
     </main>
